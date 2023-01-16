@@ -25,5 +25,5 @@ IOTHUB_TOPIC_PUB = b'devices/{clientid}/messages/events/'.format(clientid = IOTH
 # Leave IOTHUB_PORT_NO = 0 and the connection will default to 8883
 IOTHUB_PORT_NO = 0
 IOTHUB_SUBSCRIBE_TOPIC = "devices/{clientid}/messages/devicebound/#".format(clientid = IOTHUB_CLIENTID)
-#IOTHUB_TOPIC_MSG = b'{"buttonpressed":"1"}'
+IOTHUB_TOPIC_MSG = b'{"buttonpressed":"1"}'
 #------------------------------------------------------------------------------
